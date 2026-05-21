@@ -1,22 +1,22 @@
 # __**StatChart-Sim**__
 
-A self-contained web tool that lets EMS instructors quickly generate and print standardized, high-fidelity **clinical artifacts and paperwork** for pre-hospital simulated scenarios. 
+A set of self-contained web tools that lets EMS instructors quickly generate and print standardized, high-fidelity **clinical paperwork** for pre-hospital simulated scenarios. 
 
 Instead of just abstract verbal briefings, **StatChart-Sim** allows you to populate training environments with the realistic, messy, and data-dense paper trails that paramedic students must navigate, review, and interpret in the field.
 
-The entire application is a **single HTML file** — no server, no database, no build step, and no internet connection required once loaded. It runs in any modern browser and prints (or saves to PDF) directly from the page.
+Each application is a **single HTML file** — no server, no database, no build step, and no internet connection required once loaded. It runs in any modern browser and prints (or saves to PDF) directly from the page.
 
 > ⚠️ **Training use only.** Everything this tool produces is fictional and for simulation/education. It is **not** a real medical record system and must never be used for actual patient care or official documentation. See the disclaimer below.
 
 ---
 
-## 🛠️ Supported Artifacts
+## 🛠️ Simulated Patient Paperwork
 
 The generator dynamically compiles data into several critical pre-hospital training documents:
 
-* **Discharge Summaries & After Visit Papers:** Comprehensive hospital discharge paperwork detailing recent stays, specialized clinic follow-ups, and baseline patient histories.
-* **MARS Sheets (Medication Administration Record):*(Work-in-Progress)* ** Multi-page medication logs detailing scheduled doses, PRN medications, and administration histories—perfect for complex polypharmacy and reconciliation scenarios.
-* **Life-Sustaining Treatment & Legal Forms:*(Work-in-Progress)* ** State-specific, highly realistic legal directives including:
+* **[Discharge Summaries & After Visit Papers](./discharge%summary/discharge-summary.html):** Comprehensive hospital discharge paperwork detailing recent stays, specialized clinic follow-ups, and baseline patient histories.
+* **[MARS Sheets (Medication Administration Record)](./MARS/):*(Work-in-Progress)* ** Multi-page medication logs detailing scheduled doses, PRN medications, and administration histories—perfect for complex polypharmacy and reconciliation scenarios.
+* **[Life-Sustaining Treatment & Legal Forms](./DNR/):*(Work-in-Progress)* ** State-specific, highly realistic legal directives including:
   * **DNR** (Do Not Resuscitate) orders
   * **POLST** (Physician Orders for Life-Sustaining Treatment)
   * **MOLST** (Medical Orders for Life-Sustaining Treatment)
