@@ -40,24 +40,6 @@ modern browser and prints (or saves to PDF) directly from the page.
 
 ---
 
-## Quick start
-
-### Option A — Run locally
-1. Download `discharge-generator.html`.
-2. Double-click it (or open it in any browser).
-3. Fill in the form and click **Generate Discharge Summary**, then **Print / Save PDF**.
-
-### Option B — Host with GitHub Pages
-1. In this repository, go to **Settings → Pages**.
-2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-3. Select the `main` branch and the `/ (root)` folder, then **Save**.
-4. After a minute, your tool will be live at:
-   `https://<your-username>.github.io/<repo-name>/discharge-generator.html`
-
-Instructors can then bookmark that link — no downloads needed.
-
----
-
 ## Customizing
 
 Everything lives in the one HTML file and is straightforward to edit:
@@ -107,5 +89,5 @@ your own program, please replace the logo with your own institution's branding.
 
 ## Acknowledgments
 
-Built for the Milwaukee Area Technical College EMS / paramedic program to support
+Built for the Milwaukee Area Technical College EMS / Paramedic Program to support
 high-fidelity pre-hospital simulation training.
