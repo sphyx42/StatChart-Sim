@@ -14,9 +14,9 @@ Each application is a **single HTML file** — no server, no database, no build 
 
 The generator dynamically compiles data into several critical pre-hospital training documents:
 
-* **[Discharge Summaries & After Visit Papers](./Discharge_Summary/):** Comprehensive hospital discharge paperwork detailing recent stays, specialized clinic follow-ups, and baseline patient histories.
+* **[Discharge Summaries & After Visit Papers](./discharge-summary/):** Comprehensive hospital discharge paperwork detailing recent stays, specialized clinic follow-ups, and baseline patient histories.
 * **[MARS Sheets (Medication Administration Record)](./MARS/):** *(Work-in-Progress)* Multi-page medication logs detailing scheduled doses, PRN medications, and administration histories—perfect for complex polypharmacy and reconciliation scenarios.
-* **[Life-Sustaining Treatment & Legal Forms](./DNR/):** *(Work-in-Progress)* State-specific, highly realistic legal directives including:
+* **[Life-Sustaining Treatment & Legal Forms](./Legal/):** *(Work-in-Progress)* State-specific, highly realistic legal directives including:
   * **DNR** (Do Not Resuscitate) orders
   * **POLST** (Physician Orders for Life-Sustaining Treatment)
   * **MOLST** (Medical Orders for Life-Sustaining Treatment)
