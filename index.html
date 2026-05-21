@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StatChart-Sim | Simulation Portal</title>
+    <style>
+        :root {
+            --primary: #007bff;
+            --dark: #212529;
+            --light: #f8f9fa;
+            --success: #28a745;
+            --warning: #ffc107;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--dark);
+        }
+        header {
+            background-color: var(--dark);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { margin: 0.5rem 0 0 0; opacity: 0.8; }
+        .container {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            border-top: 5px solid var(--primary);
+        }
+        .card.wip { border-top-color: var(--warning); }
+        .card h2 { margin-top: 0; }
+        .card p { flex-grow: 1; color: #6c757d; line-height: 1.5; }
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn:hover { background-color: #0056b3; }
+        .btn.disabled {
+            background-color: #e9ecef;
+            color: #6c757d;
+            cursor: not-allowed;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            align-self: flex-start;
+        }
+        .badge.active { background-color: #d4edda; color: #155724; }
+        .badge.pending { background-color: #fff3cd; color: #856404; }
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>StatChart-Sim 📄🚑</h1>
+        <p>MATC EMS Simulation Lab — Instructor Tool Dashboard</p>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            
+            <div class="card">
+                <span class="badge active">Ready</span>
+                <h2>Discharge Summaries</h2>
+                <p>Generate high-fidelity hospital discharge paperwork and specialized clinic follow-up summaries to embed in patient environments.</p>
+                <a href="./discharge-summary/" class="btn">Launch Tool</a>
+            </div>
+
+            <div class="card wip">
+                <span class="badge pending">Work In Progress</span>
+                <h2>MARS Sheets</h2>
+                <p>Compile multi-page Medication Administration Records complete with background noise medications and customizable delivery errors.</p>
+                <a href="#" class="btn disabled">Coming Soon</a>
+            </div>
+
+            <div class="card wip">
+                <span class="badge pending">Work In Progress</span>
+                <h2>Legal & DNR Directives</h2>
+                <p>Generate state-specific legal directives, POLST, and MOLST sheets to test student vigilance regarding resuscitation validity.</p>
+                <a href="#" class="btn disabled">Coming Soon</a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
